@@ -1,0 +1,18 @@
+.linkbar {
+	position: relative;
+	background-color: #3c4543;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+#log {
+	position : absolute;
+	right : 0%;
+	text-align : center;
+}
+#sub {
+	position :absolute;
+	right : 0%;
+}
+#logText {
+	
+}
