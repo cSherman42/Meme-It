@@ -38,45 +38,17 @@
 <div class="container">
   <div class="jumbotron">
   <ol>
-	<li><div class="linkBar">
+	<div class="linkBar">
+		<u><p style="text-align : center;"> Submit a Link </p></u>
 		<div class="actualLink">
-			<p id="one"> hello </p>
-		
+			<form class="pure-form" method="post">
+				<input id="titleInput"type="text" class="pure-input-1-2" placeholder="Title"><br>
+				<p class="spacerP"> </p>
+				<textarea id="txtarea"class="pure-input-1-2" placeholder="Text"></textarea> <br>
+				<input type="submit" value="Submit">
+			</form>
 		</div> 
-	</div></li>
-	<li> <div class="linkBar">
-		<div class="actualLink">
-			<p> Hello </p>
-		
-		</div>
-	</div> </li>
-	</ol>
-  </div>
-
-  <div class="row">
-    <div class="col-md-3">
-		
-		<form action="submit.html">
-			<button type="submit" class="pure-button"> submit a link </button>
-		</form>
-    </div>
-    <div class="col-md-3"> 
-      <p>2</p>
-    </div>
-    <div class="col-md-3"> 
-     <p>  </p>
-	 </div>
-    <div class="col-md-3">
-      
-    </div>
-    <div class="clearfix visible-lg"></div>
-  </div>
-</div>
-	<script>
-		function what() {
-			console.log("test");
-			document.getElementById("one").innerHTML =  document.getElementById("inp").value;
-		}
-	</script>
+	</div>
+	
 </body>
 </html>

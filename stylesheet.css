@@ -16,3 +16,17 @@
 #logText {
 	
 }
+#linkSub {
+	width : 60%;
+}
+#txtarea {
+	    width: 100%;
+		height: 15em;
+}
+#titleInput {
+	width : 100%;
+	height : 3em;
+}
+.spacerP {
+	padding : .5em;
+}
