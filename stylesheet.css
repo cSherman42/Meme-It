@@ -30,3 +30,8 @@
 .spacerP {
 	padding : .5em;
 }
+
+.links {
+	text-decoration : none;
+	font-size : 2em;
+}
